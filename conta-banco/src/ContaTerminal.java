@@ -11,7 +11,7 @@ public class ContaTerminal {
         // Pedir ao usuário para digitar o número da conta
         System.out.print("Digite o número da Conta: ");
         int numero = scanner.nextInt();
-        scanner.nextLine(); // Consumir a quebra de linha
+        scanner.nextLine();
 
         // Pedir ao usuário para digitar o nome do cliente
         System.out.print("Digite o nome do cliente: ");
